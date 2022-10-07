@@ -1,0 +1,53 @@
+.project-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    height: 100vh;
+
+}
+.project-menu h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.project-mainmenu{
+    display: flex;
+    flex-direction: column;
+    color:whitesmoke;
+    background: black;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid yellowgreen;
+}
+.project-mainmenu p{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;color: antiquewhite;
+}
+.project-mainmenu h3{
+    color:rgb(234, 186, 123);
+}
+
+.project-mainmenu h4{
+    color:darkgreen;
+}
+.project-mainmenu h4 span{
+    color:whitesmoke;
+}
+.project-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    transition: transform .4s;
+}
+.project-logo a:hover{
+    transform: scale(1.1);
+    background-color: orangered;
+    border-radius: 30px;
+
+}

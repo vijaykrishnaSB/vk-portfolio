@@ -1,0 +1,27 @@
+.Education-detail{
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:black;
+}
+.Education-detail h1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: whitesmoke;
+}
+.Education-details {
+    background-color: #191919;
+    color: whitesmoke;
+    border-radius:10px ;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid orange;
+    transition: transform .3s;
+}
+.Education-details:hover{
+    transform: scale(1.1);
+    border: 2px solid #f9004d;
+
+}

@@ -1,0 +1,34 @@
+.about-me{
+    display: flex;
+    background: #191919;
+    height:150vh;
+    padding-top: 50px;
+}
+@keyframes slide-up{
+    from{
+        opacity: 0.2;
+        line-height: 100px;
+    }
+    to{
+        opacity: 1;
+        line-height: 20px;
+    }
+}
+.about-h{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.about-hh{
+    padding-left: 50px;
+    color:rgb(234, 186, 123);
+    padding-top: 20px;
+}
+.about-hhh{
+    animation: slide-up 2s;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:whitesmoke;
+}

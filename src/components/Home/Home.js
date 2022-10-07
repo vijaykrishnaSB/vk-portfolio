@@ -24,7 +24,7 @@ const Home = () => {
           <p>MERN stack developer</p>
         </div>
         <div className="photo-resume">
-          <a href="vijaySB-Resume.pdf" download="vijaySB-Resume.pdf">
+          <a href="vijaySB-Resume.pdf" target="_blank" rel="noreferrer">
             <Button>Resume</Button>
           </a>
         </div>

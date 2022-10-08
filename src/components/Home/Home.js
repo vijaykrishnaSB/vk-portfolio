@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import image1 from "../../assets/image1.png";
 import vijay1 from "../../assets/vijay1.png";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";

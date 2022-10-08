@@ -8,13 +8,9 @@
     display: flex;
     align-items: flex-start;
     padding-left: 25px;
-    /* font-family: 'Comforter Brush', cursive; */
     font-family: 'Dancing Script', cursive;
 }
-.header-container h1 span{
-        /* color: orangered; */
-        /* font-family: 'Comforter Brush', cursive; */
-}
+
 .nav-links {
     display: flex;
     justify-content: flex-end;
@@ -28,7 +24,6 @@
     color:white;
 }
 .link-item:hover{
-    /* color:#f9004d; */
     color:rgb(246, 218, 8);
 
 }

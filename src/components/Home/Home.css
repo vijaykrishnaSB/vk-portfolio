@@ -4,7 +4,7 @@
     justify-content: center;
     background-color: black;
     color: white;
-    height: 100vh;
+    height: 90vh;
     flex-direction: column;
 }
 
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     display:flex;
-    border: 2px solid rgb(246, 218, 8);
+    border: 3px solid orange;
     transition: transform .4s;
 }
 .photo-home img:hover{
@@ -25,34 +25,43 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    /* height: 100px; */
     padding-top: 10px;
 }
 .photo-subname {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top:100px ;
+    padding-top:30px ;
+    position: relative;
 }
 .photo-subname span{
     color: rgb(236, 207, 12);
 }
-.photo-subname::after{
-    display: flex;
+.photo-subname::before,
+.photo-subname::after {
+    content:"";
     position: absolute;
-    content: "";
-    left:49%;
-    height: 8%;
-    width: 50%;
-    background:black;
-    animation: typing 5s steps(12) infinite;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
-@keyframes typing {
-    100%{
-        left:100%;
-        margin:0 -35px 0 35px;
+.photo-subname::before{
+    background: black;
+    animation: typewriter 6s steps(26) infinite;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
     }
 }
+
+
+
+
+
 .photo-submenu p{
     display: flex;
     align-items: center;

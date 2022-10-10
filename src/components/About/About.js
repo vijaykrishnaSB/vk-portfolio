@@ -18,10 +18,13 @@ const About = () => {
         </p>
         <h2 className="about-hh">Previous Experience:</h2>
         <p className="about-hhh">
-          I have 4.5 year of experience in Civil Engineering. Worked as Graduate
-          engineer trainee for 1.5 years & 2 years as a junior-engineer and 1
-          years as a site-engineer in Highway-department.Totally i worked in 3
-          NHAI projects located in Telangana, Andhra Pradesh, Rajasthan.
+          I have 4.5 year of experience in Civil Field. Started as Graduate
+          Engineer Trainee Highway in Rajdeep Buildcon PVT LTD.(Project:- NH-30
+          located in Telangana) for 1.5 years & Junior-Engineer Highway in Laxmi
+          Infrastructure Developer India PVT LTD (Project:-NH-16 located in
+          Andhra Pradesh) for 2 years after that promoted as Site-Engineer
+          Highway for(Project:-NH-754k located in Rajasthan) worked for 1
+          year.Totally i worked in 3 NHAI projects.
         </p>
       </div>
     </div>

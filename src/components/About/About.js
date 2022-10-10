@@ -26,7 +26,7 @@ const About = () => {
           <h2 className="about-company">Rajdeep Buildcon PVT LTD.</h2>
           <ul>
             <li>
-              <span>Role:-</span>&nbsp;Graduate Engineer Trainee(GET){" "}
+              <span>Designation:-</span>&nbsp;Graduate Engineer Trainee(GET){" "}
             </li>
             <li>
               <span>Project:-</span>&nbsp;NH-30 from Kothagudem to Bhadrachalam
@@ -38,7 +38,7 @@ const About = () => {
           </h2>
           <ul>
             <li>
-              <span>Role:-</span>&nbsp;Junior-Engineer
+              <span>Designation:-</span>&nbsp;Junior-Engineer
             </li>
             <li>
               <span>Project:-</span>&nbsp;NH-16 from Hanuman junction to
@@ -50,11 +50,11 @@ const About = () => {
           </h2>
           <ul>
             <li>
-              <span>Role:-</span>&nbsp;Site-Engineer{" "}
+              <span>Designation:-</span>&nbsp;Site-Engineer{" "}
             </li>
             <li>
               <span>Project:-</span>&nbsp;Rajasthan/Gujarat Border Section of
-              NH-754K as a apart of Amristar to Jamnagar Economic Corridor in
+              NH-754K as a apart of Amristar to Jamnagar Economic Corridor total 30KM's in
               Rajasthan State.
             </li>
           </ul>

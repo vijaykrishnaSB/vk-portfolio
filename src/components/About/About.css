@@ -1,7 +1,6 @@
 .about-me{
     display: flex;
     background: #191919;
-    /* height:150vh; */
     padding-top: 50px;
 }
 @keyframes slide-up{
@@ -28,8 +27,8 @@
 .about-hhh{
     animation: slide-up 2s;
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
     color:whitesmoke;
     display: flex;
     flex-direction: column;

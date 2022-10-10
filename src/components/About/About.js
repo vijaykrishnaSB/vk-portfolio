@@ -18,14 +18,47 @@ const About = () => {
         </p>
         <h2 className="about-hh">Previous Experience:</h2>
         <p className="about-hhh">
-          I have 4.5 year of experience in Civil Field. Started as Graduate
-          Engineer Trainee Highway in Rajdeep Buildcon PVT LTD.(Project:- NH-30
-          located in Telangana) for 1.5 years & Junior-Engineer Highway in Laxmi
-          Infrastructure Developer India PVT LTD (Project:-NH-16 located in
-          Andhra Pradesh) for 2 years after that promoted as Site-Engineer
-          Highway for(Project:-NH-754k located in Rajasthan) worked for 1
-          year.Totally i worked in 3 NHAI projects.
+          {" "}
+          Totally i have 4.5 year's Experience in 3 National Highway Projected
+          located in different state's listed below:
         </p>
+        <ul className="about-hhh">
+          <h2 className="about-company">Rajdeep Buildcon PVT LTD.</h2>
+          <ul>
+            <li>
+              <span>Role:-</span>&nbsp;Graduate Engineer Trainee(GET){" "}
+            </li>
+            <li>
+              <span>Project:-</span>&nbsp;NH-30 from Kothagudem to Bhadrachalam
+              total 42KM's in Telangan State.
+            </li>
+          </ul>
+          <h2 className="about-company">
+            Lakshmi Infrastructure & Developers India PVT LTD.
+          </h2>
+          <ul>
+            <li>
+              <span>Role:-</span>&nbsp;Junior-Engineer
+            </li>
+            <li>
+              <span>Project:-</span>&nbsp;NH-16 from Hanuman junction to
+              kalaparu total 32KM's in Andhra Pradesh State.
+            </li>
+          </ul>
+          <h2 className="about-company">
+            Lakshmi Infrastructure & Developers India PVT LTD..
+          </h2>
+          <ul>
+            <li>
+              <span>Role:-</span>&nbsp;Site-Engineer{" "}
+            </li>
+            <li>
+              <span>Project:-</span>&nbsp;Rajasthan/Gujarat Border Section of
+              NH-754K as a apart of Amristar to Jamnagar Economic Corridor in
+              Rajasthan State.
+            </li>
+          </ul>
+        </ul>
       </div>
     </div>
   );

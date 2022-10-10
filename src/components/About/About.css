@@ -1,7 +1,7 @@
 .about-me{
     display: flex;
     background: #191919;
-    height:150vh;
+    /* height:150vh; */
     padding-top: 50px;
 }
 @keyframes slide-up{
@@ -31,4 +31,12 @@
     padding-left: 100px;
     padding-right: 100px;
     color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.about-company {
+    color:green;
+}
+span{
+    color:yellow;
 }

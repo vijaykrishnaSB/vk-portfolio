@@ -25,7 +25,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100px; */
     padding-top: 10px;
 }
 .photo-subname {
@@ -57,11 +56,6 @@
         left: 100%;
     }
 }
-
-
-
-
-
 .photo-submenu p{
     display: flex;
     align-items: center;
@@ -82,7 +76,6 @@
 }
 .photo-resume a:hover{
     transform: scale(1.1);
-    /* border: 3px solid orange; */
     border: 3px solid rgb(246, 218, 8);
     background-color: white;
     color: black;

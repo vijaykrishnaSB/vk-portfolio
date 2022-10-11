@@ -47,7 +47,7 @@
     left: 0;
 }
 .photo-subname::before{
-    background: white;
+    background: black;
     animation: typewriter 6s steps(26) infinite;
 }
 

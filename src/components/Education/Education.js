@@ -21,8 +21,11 @@ const Education = () => {
           <h5>Kothagudem, Telangana.</h5>
         </div>
         <div className="Education-details">
-          <h3>Sri Mythili High School</h3>
-          <h4>Schooling upto-10th</h4>
+          <h3>
+            Sri Mythili High School
+            <br />( 2010 - 2011 )
+          </h3>
+          <h4>SSC</h4>
           <h5>Bhadrachalam, Telangana.</h5>
         </div>
       </div>

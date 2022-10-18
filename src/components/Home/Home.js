@@ -16,7 +16,7 @@ const Home = () => {
         <div className="photo-subname">
           <h1>
             {" "}
-            Hello! i am vijay&nbsp;<span>krishna...</span>{" "}
+            Hello! I am vijay&nbsp;<span>krishna...</span>{" "}
           </h1>
         </div>
         <div className="photo-submenu">
